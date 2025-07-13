@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order History</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav-left">
+            <button id="back-btn" class="btn btn-outline">← Back to Items</button>
+            <h1>Order History</h1>
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="orders-content">
+            <div id="empty-orders" class="empty-state" style="display: none;">
+                <h2>No orders yet</h2>
+                <p>Your order history will appear here once you make your first purchase.</p>
+                <button id="start-shopping" class="btn btn-primary">Start Shopping</button>
+            </div>
+            
+            <div id="orders-list"></div>
+        </div>
+    </div>
+
+    <div id="toast" class="toast"></div>
+
+    <script src="data.js"></script>
+    <script src="orders.js"></script>
+</body>
+</html>
