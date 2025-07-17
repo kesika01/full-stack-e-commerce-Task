@@ -1,6 +1,3 @@
--- Database Schema for E-Commerce Shopping Cart
--- This would be used if connecting to a real database
-
 -- Users table
 CREATE TABLE IF NOT EXISTS users (
     id SERIAL PRIMARY KEY,
