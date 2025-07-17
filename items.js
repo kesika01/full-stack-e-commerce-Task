@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   
   function isLoggedIn() {
-
     return true 
   }
 
