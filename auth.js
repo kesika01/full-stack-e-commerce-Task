@@ -10,7 +10,7 @@ function generateToken(userId) {
   localStorage.setItem("token", `user-${userId}`)
 }
 
-function getNextUserId() {
+function  getNextUserId() {
 
   const users = getUsers()
   return users.length > 0 ? users[users.length - 1].id + 1 : 1
